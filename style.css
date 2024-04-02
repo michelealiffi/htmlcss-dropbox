@@ -5,6 +5,11 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+h1 {
+    font-size: 60px;
+    margin-left: 30px;
+}
+
 p {
     margin-top: 5px;
     margin-left: 30px;
@@ -23,6 +28,45 @@ p {
 
 .blue-button {
     background-color: rgb(0, 89, 255);
+    color: white;
     padding-left: 5px;
     padding-right: 5px;
 }
+
+.row-300 {
+    background-color: rgb(126, 190, 255);
+}
+
+.col-200 {
+    padding-top: 50px;
+    padding-left: 500px;
+}
+
+.col-100 {
+    display: flex;
+}
+
+.col-50 .blue-button {
+    font-size: 13px;
+    padding: 7px;
+    margin-left: 30px;
+}
+
+.col-50 p {
+    margin-top: 20px;
+}
+
+.jumbo {
+    width: 500px;
+    margin-top: 20px;
+}
+
+.p-margin {
+    margin-bottom: 20px;
+}
+
+.arrow {
+    font-size: 50px;
+    padding-top: 30px;
+}
+
