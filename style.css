@@ -10,10 +10,6 @@ h1 {
     margin-left: 30px;
 }
 
-h2 {
-
-}
-
 p {
     margin-top: 5px;
     margin-left: 30px;
@@ -77,8 +73,11 @@ p {
 .row-2 {
     margin-top: 100px;
     margin-left: 500px;
-    margin-right: 500px;
     margin-bottom: 100px;
+}
+
+.row-2 h2 {
+    font-size: 30px;
 }
 
 .row-4 {
@@ -106,4 +105,62 @@ p {
 
 .fattura-2 {
     margin-left: 50px;
+}
+
+.acquisto {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-20 {
+    border: solid 1px;
+    border-color: gray;
+    width: 300px;
+    height: 700px;
+    margin-right: 50px;
+}
+
+.col-20 span {
+    margin-left: 110px;
+    border-bottom: solid 1px;
+    border-color: gray;
+}
+
+.col-21 {
+    border: solid 1px;
+    border-color: gray;
+    width: 1000px;
+    height: 300px;
+    margin-top: 50px; 
+}
+
+.partner {
+    display: flex;
+    margin-top: 150px;
+}
+
+.partner img {
+    width: 600px;
+}
+
+.partner h2 {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.partner p {
+    font-size: 14px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.partner span {
+    font-size: 14px;
+    margin-left: 50px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: solid 1px;
 }
