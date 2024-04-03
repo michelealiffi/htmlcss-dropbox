@@ -167,12 +167,8 @@ footer {
     border: solid 1px;
     border-color: gray;
     width: 300px;
-    height: 700px;
+    height: 1000px;
     margin-right: 50px;
-}
-
-.col-20 span {
-    margin-left: 110px;
 }
 
 .col-21 {
@@ -181,6 +177,14 @@ footer {
     width: 1000px;
     height: 300px;
     margin-top: 50px; 
+}
+
+.col-21 .title-acquisto {
+    margin-left: 350px;
+}
+
+.col-21 p {
+    margin-top: 60px;
 }
 
 .col-25 {
@@ -431,4 +435,164 @@ footer {
 
 .ita span {
     color: gray;
+}
+
+.acquisto img {
+    width: 15px;
+    height: 15px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.acquisto hr {
+    margin-top: 10px;
+}
+
+.acquisto h2 {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.acquisto h3 {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.month {
+    color: gray;
+}
+
+.archive {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.archive p {
+    margin: 0;
+    padding-left: 5px;
+}
+
+.archive img {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+
+.user {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.user p {
+    margin: 0;
+    padding-left: 5px;
+}
+
+.user img {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+
+.share {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.share p {
+    margin: 0;
+    padding-left: 5px;
+}
+
+.share img {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+
+.col-20 .blue-button {
+    margin: 0px;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.under-button {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.under-button .blue-link {
+    margin: 0;
+    color: blue;
+    text-decoration: underline;
+}
+
+.half-hr {
+    margin-left: 30px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+
+.p-mark {
+    padding-top: 20px;
+}
+
+.blue-mark {
+    color: blue;
+}
+
+.blue-button-2 {
+    background-color: rgb(0, 89, 255);
+    color: white;
+    margin: 0px;
+    margin-left: 30px;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 80px;
+}
+
+.team {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.team p {
+    margin: 0;
+    padding-left: 5px;
+}
+
+.team img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.title-acquisto .team-title {
+    width: 20px;
+    height: 20px;
+}
+
+.enterprise {
+    display: flex;
+    justify-content: space-between;
+}
+
+.enterprise span {
+    margin-right: 30px;
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
