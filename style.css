@@ -20,58 +20,29 @@ footer {
     background-color: black;
 }
 
+/* container */
+
 .header-container {
     justify-content: space-between;
     display: flex;
 }
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 400px;
+    padding-right: 300px;
+}
+
+/* row */
 
 .row-left, .row-right {
     display: flex;
     margin: 20px;
 }
 
-.blue-button {
-    background-color: rgb(0, 89, 255);
-    color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
 .row {
     background-color: rgb(126, 190, 255);
-}
-
-.col-200 {
-    padding-top: 50px;
-    padding-left: 500px;
-}
-
-.col-100 {
-    display: flex;
-}
-
-.col-50 .blue-button {
-    font-size: 13px;
-    padding: 7px;
-    margin-left: 30px;
-}
-
-.col-50 p {
-    margin-top: 20px;
-}
-
-.jumbo {
-    width: 500px;
-    margin-top: 20px;
-}
-
-.p-margin {
-    margin-bottom: 20px;
-}
-
-.arrow {
-    font-size: 50px;
-    padding-top: 30px;
 }
 
 .row-2 {
@@ -113,19 +84,83 @@ footer {
     padding-right: 50px;
 }
 
-.fatturazione {
-    display: flex;
-    margin-top: 30px;
+.row-5 {
+    padding-top: 100px;
+    padding-left: 500px;
+    padding-bottom: 100px;
+    padding-right: 500px;
+}
+
+.row-5 h2 {
+    font-size: 35px;
+}
+
+.row-5 h3 {
+    font-size: 15px;
+}
+
+.row-5 hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.row-5 span {
+    margin-left: 250px;
+    display: inline-block;
+    transform: rotate(-90deg);
+}
+
+.row-6 {
+    color: white;
+    margin-top: 100px;
+}
+
+.row-6 h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+}
+
+.row-6 p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.row-7 hr {
+    color: gray;
+    margin-top: 70px;
     margin-bottom: 30px;
 }
 
-.fattura-2 {
-    margin-left: 50px;
+.row-7 p {
+    color: grey;
+    margin: 0;
 }
 
-.acquisto {
+.row-7 span {
+    font-size: 30px;
+    margin: 0;
+}
+
+/* col */
+
+.col-200 {
+    padding-top: 50px;
+    padding-left: 500px;
+}
+
+.col-100 {
     display: flex;
-    flex-wrap: wrap;
+}
+
+.col-50 .blue-button {
+    font-size: 13px;
+    padding: 7px;
+    margin-left: 30px;
+}
+
+.col-50 p {
+    margin-top: 20px;
 }
 
 .col-20 {
@@ -146,6 +181,108 @@ footer {
     width: 1000px;
     height: 300px;
     margin-top: 50px; 
+}
+
+.col-25 {
+    border: solid 10px;
+    border-color: rgb(227, 255, 182);
+    background-color: greenyellow;
+    width: 317px;
+    height: 317px;
+    padding-top: 120px;
+    padding-left: 80px;
+}
+
+.col-26 {
+    background-color: brown;
+    width: 317px;
+    height: 317px;
+    padding-top: 100px;
+    padding-left: 90px;
+}
+
+.col-27 {
+    background-color: dodgerblue;
+    width: 317px;
+    height: 317px;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.col-28 {
+    background-color: red;
+    width: 317px;
+    height: 317px;
+    padding-top: 120px;
+    padding-left: 100px;
+}
+
+.col-29 {
+    background-color: red;
+    width: 317px;
+    height: 317px;
+    padding-top: 120px;
+    padding-left: 100px;
+}
+
+.col-30 {
+    background-color: rgb(181, 216, 248);
+    width: 317px;
+    height: 317px;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.col-31 {
+    background-color: blue;
+    width: 317px;
+    height: 317px;
+    padding-top: 120px;
+    padding-left: 100px;
+}
+
+.col-32 {
+    background-color: gold;
+    width: 317px;
+    height: 317px;
+    padding-top: 120px;
+    padding-left: 100px;
+}
+
+.blue-button {
+    background-color: rgb(0, 89, 255);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.jumbo {
+    width: 500px;
+    margin-top: 20px;
+}
+
+.p-margin {
+    margin-bottom: 20px;
+}
+
+.arrow {
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.fatturazione {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fattura-2 {
+    margin-left: 50px;
+}
+
+.acquisto {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .partner {
@@ -221,27 +358,9 @@ footer {
     flex-wrap: wrap;
 }
 
-.col-25 {
-    border: solid 10px;
-    border-color: rgb(227, 255, 182);
-    background-color: greenyellow;
-    width: 317px;
-    height: 317px;
-    padding-top: 120px;
-    padding-left: 80px;
-}
-
 .design {
     width: 150px;
     filter: invert(100%);
-}
-
-.col-26 {
-    background-color: brown;
-    width: 317px;
-    height: 317px;
-    padding-top: 100px;
-    padding-left: 90px;
 }
 
 .arizona {
@@ -249,25 +368,9 @@ footer {
     filter: invert(100%);
 }
 
-.col-27 {
-    background-color: dodgerblue;
-    width: 317px;
-    height: 317px;
-    padding-top: 150px;
-    padding-left: 100px;
-}
-
 .florida {
     width: 100px;
     filter: invert(100%);
-}
-
-.col-28 {
-    background-color: red;
-    width: 317px;
-    height: 317px;
-    padding-top: 120px;
-    padding-left: 100px;
 }
 
 .topps {
@@ -279,15 +382,53 @@ footer {
     background-color: rgb(212, 212, 212);
     padding-top: 50px;
     padding-left: 50px;
-    padding-bottom: 310px;
+    padding-bottom: 231px;
+}
+
+.background-grey img {
+    width: 300px;
+}
+
+.background-grey h2 {
+    border-bottom: solid 1px;
+    border-color: gray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 450px;
 }
 
 .background-grey p {
     margin: 0;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .square {
     width: calc(100%/3);
     height: calc(100%/3);
+}
+
+.bicycle, .planet, .hearst, .channel {
+    width: 120px;
+    filter: invert(100%);
+}
+
+.ita {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.ita img {
+    width: 15px;
+    height: 15px;
+    filter: invert(50%);
+    margin-right: 10px;
+    margin-top: 26px;
+}
+
+.ita p {
+    padding-top: 26px;
+}
+
+.ita span {
+    color: gray;
 }
